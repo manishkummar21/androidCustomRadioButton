@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.customradiobutton.CustomRadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customradiogroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SampleActivity">
+
+    <com.customradiobutton.CustomRadioButton
+        android:id="@+id/radiobutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:description="@string/description"
+        app:title="Title1" />
+
+    <com.customradiobutton.CustomRadioButton
+        android:id="@+id/radiobutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:description="@string/description"
+        app:isChecked="true"
+        app:title="Title2" />
+
+    <com.customradiobutton.CustomRadioButton
+        android:id="@+id/radiobutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:description="@string/description"
+        app:title="Title3" />
+
+
+</com.customradiobutton.CustomRadioGroup>

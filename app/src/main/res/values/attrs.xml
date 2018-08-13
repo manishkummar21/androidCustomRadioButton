@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRadioGroup">
+        <attr name="RadioCheckedId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioButton">
+        <attr name="title" format="string" />
+        <attr name="description" format="string" />
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>
+
+</resources>
